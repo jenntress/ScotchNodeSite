@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>My Node Home Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css"> <!--My CSS comes AFTER bootstrap to cascade-->
+  </head>
+  <body>
+
+  <header>
+    <nav class="navbar navbar-inverse">
+      <a href="/" class="navbar-brand">My Site</a>
+      <ul class="nav navbar-nav">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Welcome to the site</h2>
+      <p>The best site in the world.</p>
+      <a href="/" class="btn btn-lg btn-primary">Home</a>
+      <a href="/contact" class="btn btn-lg btn-primary">Contact</a>
+    </div>
+  </section>
+
+
+
+<!--keep script at the end-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://unpkg.com/vue"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="app.js"></script> <!--link my javascript file from the same directory location-->
+      </body>
+</html>
